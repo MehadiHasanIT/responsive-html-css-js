@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+
+        <div class="navbar">
+            <!-- <div class="empty">  </div> -->
+            <div class="logo">Responsive Design</div>
+
+
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">content</a></li>
+                    <li><a href="">gallery</a></li>
+                    <li><a href="">contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+           
+            <img src="image/menu.png" class="menu-icon" onclick="menuetoggle()">
+
+
+             <!-- <div class="menu" >
+                <a href="">home</a>
+                <a href="">content</a>
+                <a href="">gellary</a>
+                <a href="">contact</a>
+            </div>  -->
+
+           
+        </div>
+
+
+        <hr class="line">
+        <div class="section">
+            <h1 class="h-2">This is a Responive Website</h1>
+            <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt cupiditate sed, unde dolore aperiam iure neque ex maxime maiores! Non iusto, dignissimos blanditiis odio autem et nemo in distinctio quas hic, ad iure, laudantium fugit natus est at accusantium facilis! Blanditiis quis at magnam asperiores voluptate porro praesentium dolorum, animi est necessitatibus in cumque! Atque adipisci recusandae nisi autem culpa sunt dolor qui facilis aut, non rerum omnis fugiat. Non facere, et tempora, molestiae odio aperiam culpa nostrum saepe assumenda iusto maiores adipisci illo tenetur. Ipsum optio, impedit id, voluptas provident beatae pariatur sint nam magni facilis, tenetur cumque ducimus.</p>
+        </div>
+        <div class="subscription">
+            <div>
+                <h1>Subscribe with your email</h1>
+            </div>
+           <div class="sub-check-box"> 
+    <input  type="text">
+    <input type="button" value="Subscribe">
+            </div> 
+
+        </div>
+
+        <div class="course-name">
+            <div class="html"><h3>HTML</h3>
+
+                <img src="image/LogoMakr-4v6xaO.png" height="100px" width="90px">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, fugit aspernatur temporibus adipisci quia ex voluptates cumque quam? Similique, nostrum.</p>
+            </div>
+            <div class="css"><h3>CSS</h3>
+                <img src="image/LogoMakr-6Kcuaf.png" height="100px" width="90px">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint rerum possimus eum illum dolore aspernatur perspiciatis dolorem tenetur deleniti excepturi?</p>
+        </div>
+            <div class="graphics"><h3>GRAPHICS</h3>
+                <img src="image/LogoMakr-16FJPU.png" height="100px" width="100px">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe iusto perferendis maxime doloremque sunt qui eos doloribus voluptate natus labore?</p></div>
+        </div>
+        
+        <!-- footer -->
+        <div class="footer">
+            <div class="achivement">
+                <h3 class="footer-h3">ACHIEVEMENTS</h3>
+                <hr class="dotted-line">
+               <ol class="list"> 
+                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cumque, deleniti dignissimos odit earum aliquid.</li>
+                   <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, sunt.</li>
+                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vel id corporis.</li>
+                   <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, sunt.</li>
+               </ol>
+            </div>
+            <div class="contact">
+                <h3>CONTACT</h3>
+                <hr class="dotted-line">
+
+              <div class="contact-form">
+                <form  action="mailto:abc@yahoo.com" method="post"enctyp="text/plain">
+            
+                    <p > <input  type="text" placeholder="Your Name" name="Name"> </p>
+                    <p> <input type="email" placeholder="Your Email" name="Email"> </p>
+                    <textarea name="message" id="text-area" cols="20" rows="10" placeholder="Put your message here."></textarea>
+                    <button type="submit">SEND </button>
+                    <button type="reset">RESET </button>
+                    
+                    
+                    </form>
+              </div>
+
+            </div>
+            <div class="more-contact">
+                <h3 class="footer-h3">MORE CONTACT</h3>
+                <hr class="dotted-line">
+
+              <div class="media-button">
+                  <button class="btn" onclick="window.open('https://www.youtube.com/?gl=DE')"> <i class="fa fa-youtube" style="color: red;"></i></button>
+
+                  <button class="btn" onclick="window.open('https://www.facebook.com/')"> <i class="fa fa-facebook-square" style="color:blue;"></i></button>
+
+                  <button class="btn" onclick="window.open('https://www.linkedin.com')"> <i class="fa fa-linkedin" style="color:rgb(67, 191, 233);"></i></button>
+
+                  <button class="btn" onclick="window.open('https://www.google.com')"> <i class="fa fa-google" style="color:rgb(233, 67, 95);"></i></button>
+
+                 
+              </div>
+            </div>
+        </div>
+        <div>
+            <section id="copyright">
+				&copy; 
+				<p> Md Mehadi Hasan </p>
+				<p> Frankfurt University of Applied Science</p>
+				<p> <a  href="mailto:hmd.mehadi@yahoo.com">hmd.mehadi@yahoo.com</a> </p>
+			</section>
+        </div>
+
+         <!-- <script>
+            var MenuItem=document.getElementById("MenuItems");
+            MenuItem.style.maxHeight="0px";
+            function menuetoggle(){
+                if(MenuItem.style.maxHeight=="0px"){
+                    MenuItem.style.maxHeight="250px";
+                }
+                else{
+                    MenuItem.style.maxHeight="0px";
+                }
+    
+            }
+        </script>  -->
+        <script src="toggle_menu.js">
+        </script>
+
+    </div>
+
+
+</body>
+</html>

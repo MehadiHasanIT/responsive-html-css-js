@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background: #e7e3e3;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: cyan;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type:none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    
+}
+
+nav ul li:hover{
+    background: yellowgreen ;
+    border-radius: 5px;
+}
+
+.logo{
+          
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* border: 2px solid; */
+  
+    text-align: left;
+    /* padding-left: 10px; */
+    text-shadow: 1px 1px whitesmoke;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+
+
+
+.line{
+    border: 1px solid tomato;
+    width: 100%;
+    
+}
+
+.section{
+    padding: 10px 20px;
+
+}
+.h-2{
+    color:teal;
+   font-size: 40px;
+    text-shadow:1px 1px  whitesmoke;
+    text-align: center;
+    text-justify: auto;
+    margin-bottom: 5px;
+}
+p{
+    text-align: justify;
+    
+}
+.subscription{
+    margin: 10px 0;
+    text-align: center;
+    background: lightseagreen;
+    color: whitesmoke;
+}
+
+input[type=text] {
+ 
+    padding: 8px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   
+    }
+    input[type=button] {
+ 
+        padding: 8px 15px;
+        margin: 8px 0;
+        box-sizing: border-box;
+       
+        }
+  
+  .course-name{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0 5px;
+      
+  }
+  .html, .css, .graphics{
+      width: 33%;
+      padding: 0 10px;
+      text-align: center;
+      border: 1px solid black;
+      box-shadow: 2px 2px white;
+  }
+  .html:hover,.css:hover,.graphics:hover{
+    box-shadow: 2px 2px 2px 2px  rgb(219, 14, 14);
+  }  
+
+/* footer */
+.footer{
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 10px auto;
+      padding: 10px;
+      background: rgb(141, 245, 234);
+     
+}
+.achivement,.contact,.more-contact{
+    width: 33%;
+    text-align: center;
+}      
+
+
+.list{
+    padding: 10px;
+}
+.dotted-line{
+    border: dotted 6px white;
+    border-bottom: none;
+    margin: 15px auto;
+    width: 60px;
+}
+
+li{
+    padding: 10px;
+    text-align: left;
+}
+
+
+.contact-form input{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+
+}
+#text-area{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 17px;
+    text-align: center;
+}
+button{
+    border-radius: 5px;
+    margin: 5px 10px;
+    padding: 8px;
+    background: rgb(199, 198, 198);
+    font-weight: bold;
+    width: 100px;
+}
+button:hover{
+    background: white;
+    color: red;
+}
+.btn{
+    background: rgb(179, 167, 167);
+border:none;
+border-radius: 25px;
+cursor: pointer;
+font-size: 35px;
+padding: 5px;
+margin: 10px;
+width: 40px;
+}
+.more-contact{
+    position: relative;
+}
+.media-button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#copyright{
+   padding-top: 5px;
+    background: rgb(141, 245, 234);
+    text-align: center;
+
+}
+#copyright p {
+    text-align: center;
+    padding-bottom: 5px;
+    
+   
+}
+#copyright >:last-child{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    }
+
+a:hover{
+text-decoration: underline;
+color:red;
+}
+
+
+    
+
+
+
+    
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    .container{
+        width: 100%;
+    }
+    nav{
+        display: block;
+    }
+
+
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: right;
+        padding: 0px;
+       
+    }
+    nav ul li a{
+        color: #fff;
+        
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+        
+      }
+      .logo{
+          text-align: center;
+           padding-bottom: 10px; 
+      }
+      
+      .html, .css, .graphics{
+          width: 100%;
+          flex-direction: row;
+          padding: 10px;
+          margin: 10px;
+          box-shadow: 1px 1px white;
+      }
+      .contact{
+          width: 100%;
+      }
+      .achivement{
+        width: 100%;
+      }
+      .list li{
+          width: 100%;
+          text-align: left;
+      }
+     button{
+        width: 70px; 
+     }
+
+     .more-contact{
+        width: 100%;
+        margin-top: 15px;
+        padding-bottom: 50px;
+         
+        
+     }
+     .media-button {
+         width: 100%;
+         
+
+     }
+     .btn{
+         margin-top: 70px;
+     }
+
+
+    
+
+  @media only screen and (max-width: 700px) {
+
+    
+
+  }
